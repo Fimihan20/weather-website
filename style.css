@@ -58,6 +58,9 @@ img{
     border-radius: 50%;
     background-color: white;
 }
+.weatherImage{
+    margin-top:30px;
+}
 .search-container img{
     position:absolute;
     display:flex;
