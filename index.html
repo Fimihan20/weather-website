@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1> Weather App</h1>
+        <div class="search-container">
+            <input type="text" id="cityInput" placeholder="Enter your city">
+            <div class="icon-container"  id="searchIcon">
+                <div class="circle"></div>
+                <img src="images/search-svgrepo-com.svg" alt="search icon">
+            </div>
+        </div>
+        <div class="weather">
+            <img class="weatherImage" src="images/broken-cloud_prev_ui.png" alt="weather image">
+            <h2 class="weather-condition">Broken Clouds</h2>
+            <h2 class="degree">20&deg;C</h2>
+            <h2 class="cityName">London</h2>
+        </div>
+        <div class="grid">
+<div class="items">
+    <img src="images/pressure icon.png">
+    <div class="items-inner">
+<h3>Pressure</h3>
+<h4 class="pressure"> 1013hPa</h4>
+    </div>
+</div>
+<div class="items">
+    <img src="images/wind icon.png">
+    <div class="items-inner">
+        <h3>wind</h3>
+        <h4 class="wind">3.6 m/s</h4>
+    </div>
+</div>
+<div class="items">
+    <img src="images/visibility_icon-removebg-preview.png">
+    <div class="items-inner">
+        <h3>Visibility</h3>
+        <h4 class="visibility">3.6 m</h4>
+    </div>
+</div>
+<div class="items">
+    <img src="images/humid weather.png">
+    <div class="items-inner">
+        <h3>Humidity</h3>
+        <h4 class="humidity">3.6 %</h4>
+    </div>
+</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
